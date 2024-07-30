@@ -1,0 +1,123 @@
+.main {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('background_image.jpg');
+    background-size: cover;
+    color: white;
+}
+.container {
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+    background-image: url(background-image2.jpg);
+    height: 70%;
+    background-size: cover;
+}
+.first_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 25%;
+}
+.second_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 30%;
+}
+.location-info {
+    text-align: left;
+}
+#city-name {
+    font-size: 35px;
+    font-weight: 500;
+    margin: 0;
+}
+#date-time {
+    font-size: 14px;
+    color: #888;
+    margin: 5px 0;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+#search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    margin-right: 10px;
+}
+#search-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #00796b;
+    color: white;
+    cursor: pointer;
+}
+#temperature {
+    font-size: 55px;
+    margin: 0;
+}
+#weather-condition {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #ccc;
+}
+#temp1 p {
+    margin: 5px 0;
+}
+#weather-icon {
+    width: 200px;
+    height: 200px;
+}
+#temp1 {
+    
+    justify-content: center;
+    align-items: center;
+}
+#img {
+    padding-left: 300px;
+}
+.third_div {
+    border: 1px solid brown;
+    width: 86%;
+    height: 30%;
+    margin-left: 7%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(background-image2.jpg);
+    background-size: cover;
+}
+
+.day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+}
+
+.day p {
+    margin: 2px 0;
+    font-size: 14px;
+}
+
+.day img {
+    width: 50px;
+    height: 50px;
+}
